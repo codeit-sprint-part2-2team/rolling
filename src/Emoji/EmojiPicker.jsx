@@ -5,7 +5,6 @@ import Picker from 'emoji-picker-react'; // emoji-picker-react에서 Picker 임�
 import EmojiBadge from '../components/Badge/EmojiBadge';
 
 function EmojiPickerComponent() {
-  // 함수 선언 형식으로 변경
   const [selectedEmoji, setSelectedEmoji] = useState(null);
   const [emojiCount, setEmojiCount] = useState(0);
 
