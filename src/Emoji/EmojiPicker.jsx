@@ -1,4 +1,3 @@
-// src/components/Emoji/EmojiPicker.jsx
 import React, { useState } from 'react';
 import Picker from 'emoji-picker-react'; // emoji-picker-react에서 Picker 임포트
 
