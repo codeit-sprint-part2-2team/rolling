@@ -1,10 +1,13 @@
 import PropTypes from 'prop-types';
+
 import { EmojiBadgeArea, Emoji, Count } from './EmojiBadge.styles';
 
 function EmojiBadge({ emoji, count }) {
   return (
     <EmojiBadgeArea>
-      <Emoji>{emoji}</Emoji>
+      <EmojiContainer>
+        <Emoji>{emoji}</Emoji>
+      </EmojiContainer>
       <Count>{count}</Count>
     </EmojiBadgeArea>
   );
